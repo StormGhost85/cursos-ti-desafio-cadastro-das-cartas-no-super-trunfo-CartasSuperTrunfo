@@ -17,7 +17,8 @@ int main() {
     printf("Olá Jogador\n Bem vindo ao Super Trunfo.\n");
 
     //Cadastro da Carta numero 1
-    printf("\nCadastro da Carta 1\n\n");
+    printf("\nCadastro da Carta 1\n");
+    printf("\n");
     printf("Digite o Estado:(de A a H)\n");
     scanf(" %c", &estado1);
 
@@ -42,6 +43,7 @@ int main() {
 
    //Cadastro Carta número 2
    printf("Cadastro da Carta 2\n");
+   printf("\n");
    printf("Digite o Estado:(de A a H)\n");
    scanf(" %c", &estado2);
 
